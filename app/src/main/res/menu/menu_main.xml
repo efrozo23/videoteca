@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+
+    >
+
+    <item
+    android:id="@+id/action_video"
+    android:orderInCategory="300"
+    android:icon="@drawable/ic_menu"
+    android:title="Videos"
+    ></item>
+    <item
+        android:id="@+id/video_conferencias"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_menu"
+        android:title="Videoconferencias"
+        ></item>
+    <item
+        android:id="@+id/audiovisuales"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_menu"
+        android:title="Audiencias Virtuales"
+        ></item>
+    <item
+        android:id="@+id/fotos"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_menu"
+        android:title="Fotografías"
+        ></item>
+    <item
+        android:id="@+id/publica"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_menu"
+        android:title="Publicaciones"
+        ></item>
+</menu>

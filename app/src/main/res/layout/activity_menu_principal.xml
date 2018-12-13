@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal"
+    android:orientation="vertical"
+    android:background="#4E4C4D">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="#3F51B5">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:background="#3F51B5"
+            android:src="@drawable/videoteca" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#3F51B5"
+            android:elevation="4dp"
+            app:titleTextColor="#fff"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            >
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_marginTop="0dp">
+
+            <TableRow
+                android:layout_width="200dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="106dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/border_radiuspng"
+                        android:src="@drawable/videoteca"
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:text="Videos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="107dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/videoc"
+                        android:src="@drawable/btn_gif_videoconferencias_gris"
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:text="Videoconferencias" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="200dp"
+                android:layout_height="136dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="109dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/audiovirtuales"
+                        android:src="@drawable/btn_gif_audienciasvirtuales_gris"
+                        />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Audiencias Virtuales"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="106dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/foto"
+                        android:src="@drawable/btn_gif_fotografias_gris"
+                        />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:text="Fotografías" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="96dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/publicaciones"
+                        android:src="@drawable/btn_gif_publicaciones_gris"
+                        />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:text="Publicaciones" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+
+</LinearLayout>
